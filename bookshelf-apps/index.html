@@ -22,24 +22,24 @@
     <main>
       <section class="input_section">
         <h2>Masukkan Buku Baru</h2>
-        <form id="inputBook">
+        <form id="input_book">
           <div class="input">
-            <label for="inputBookTitle">Judul</label>
-            <input id="inputBookTitle" type="text" required />
+            <label for="input_title_book">Judul</label>
+            <input id="input_title_book" type="text" required />
           </div>
           <div class="input">
-            <label for="inputBookAuthor">Penulis</label>
-            <input id="inputBookAuthor" type="text" required />
+            <label for="input_author_name">Penulis</label>
+            <input id="input_author_name" type="text" required />
           </div>
           <div class="input">
-            <label for="inputBookYear">Tahun</label>
-            <input id="inputBookYear" type="number" required />
+            <label for="input_release_date">Tahun</label>
+            <input id="input_release_date" type="number" required />
           </div>
           <div class="input_inline">
-            <label for="inputBookIsComplete">Selesai dibaca?</label>
-            <input id="inputBookIsComplete" type="checkbox" />
+            <label for="input_finished">Selesai dibaca?</label>
+            <input id="input_finished" type="checkbox" />
           </div>
-          <button id="bookSubmit" type="submit">
+          <button id="submit_book" type="submit">
             Masukkan ke rak <span>Buku belum selesai dibaca</span>
           </button>
         </form>
@@ -47,9 +47,9 @@
 
       <section class="search_section">
         <h2>Cari Judul Buku</h2>
-        <form id="searchBook">
-          <!-- <label for="searchBookTitle">Judul</label> -->
-          <input id="searchBookTitle" type="text" />
+        <form id="search_title_book">
+          <!-- <label for="search_book_title">Judul</label> -->
+          <input id="search_book_title" type="text" />
           <button id="searchSubmit" type="submit">Cari</button>
         </form>
       </section>
@@ -57,18 +57,18 @@
       <section class="book_shelf">
         <h2>Selesai dibaca</h2>
 
-        <div id="incompleteBookshelfList" class="book_list"></div>
+        <div id="unfinished_list" class="book_list"></div>
       </section>
 
       <section class="book_shelf">
         <h2>Belum selesai dibaca</h2>
 
-        <div id="completeBookshelfList" class="book_list"></div>
+        <div id="finished_list" class="book_list"></div>
       </section>
     </main>
 
     <footer class="foot_bar">
-        <p class="foot_bard__copyright">Developed by Maryam Hasnaa' Syamila</p> 
+      <p class="foot_bard__copyright">Developed by Maryam Hasnaa' Syamila</p>
     </footer>
 
     <script src="main.js"></script>
